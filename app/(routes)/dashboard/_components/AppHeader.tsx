@@ -17,17 +17,7 @@ const AppHeader = () => {
             id: 2,
             name: 'История',
             path: "/dashboard/history"
-        },
-        {
-            id: 3,
-            name: 'Pricing',
-            path: "/dashboard/billing"
-        },
-        {
-            id: 4,
-            name: 'Профиль',
-            path: "/dashboard/profile"
-        },
+        }
 
     ]
  //   const {logout} = useAuth()
