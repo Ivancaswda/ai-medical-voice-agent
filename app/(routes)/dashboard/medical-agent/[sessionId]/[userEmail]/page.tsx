@@ -91,7 +91,7 @@ const MedicalVoiceAgent = () => {
                 console.error("Missing voiceId in selectedDoctor");
                 return;
             }
-            const vapi = new Vapi('ee928731-a1ca-4a63-9d7b-8767f6016543');
+            const vapi = new Vapi('161eae17-df00-4f7c-b3a8-a432e2f198fb');
             setVapiInstance(vapi)
 
             const VapiAgentConfig = {
