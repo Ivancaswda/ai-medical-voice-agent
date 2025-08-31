@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 import {useAuth} from "@/context/useAuth";
-
+import Image from "next/image";
 import React from "react";
 function Page() {
 
@@ -124,8 +124,8 @@ const Navbar = () => {
     return (
         <nav className="flex w-full items-center justify-between border-t border-b border-neutral-200 px-4 py-4 dark:border-neutral-800">
             <div className="flex items-center gap-2">
-                <img className='rounded-xl w-[70px] h-[70px]'
-                     src='../public/logo.png'
+                <Image className='rounded-xl w-[70px] h-[70px]'
+                     src='/logo.png' width={70} height={70}
                      alt="logo.png"/></div>
             {!user ? <Link href='/sign-in'>
                     <Button>
