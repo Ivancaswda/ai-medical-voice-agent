@@ -111,7 +111,7 @@ const MedicalVoiceAgent = () => {
                     messages: [
                         {
                             role: 'system',
-                            content: sessionDetail?.selectedDoctor?.agentPrompt || 'Вы доброжелательный AI медицинский помощник. Общайтесь с пользователем по-русски, помогайте ему кратко и понятно.'
+                            content: sessionDetail?.selectedDoctor?.agentPrompt || 'Вы доброжелательный AI медицинский помощник. Общайтесь с пользователем по-русски, помогайте ему кратко и понятно.  Не отправляйте никаких смайликов в конце сообщений! Просто отвечайте'
                         }
                     ]
                 }
